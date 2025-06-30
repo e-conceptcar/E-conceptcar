@@ -38,16 +38,9 @@
     .icon {
       margin-right: 8px;
     }
-    .logo {
-      width: 120px;
-      margin-bottom: 15px;
-    }
   </style>
 </head>
 <body>
-  <!-- Logo -->
-  <img src="logo-econceptcar.png" alt="Logo E-conceptcar" class="logo" />
-
   <h1>👤 Erick da Silva</h1>
 
   <p class="info"><span class="label">🏢 Empresa:</span> E-conceptcar</p>
