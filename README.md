@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contato</title>
+  <title>Contato - E-conceptcar</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -38,8 +39,8 @@
   </style>
 </head>
 <body>
-  <h1>👤 Contato</h1>
-  <p class="info"><span class="label">🏢 Empresa:</span> [Nome da Empresa]</p>
+  <h1>📇 Contato</h1>
+  <p class="info"><span class="label">🏢 Empresa:</span> E-conceptcar</p>
   <p class="info">
     <span class="icon">📞</span>
     <span class="label">Telefone / WhatsApp:</span>
@@ -48,7 +49,7 @@
   <p class="info">
     <span class="icon">✉️</span>
     <span class="label">E-mail:</span>
-    <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+    <a href="mailto:e-conceptcar@outlook.com">e-conceptcar@outlook.com</a>
   </p>
   <p class="info">
     <span class="icon">📍</span>
@@ -70,7 +71,7 @@
   <p class="info">
     <span class="icon">📸</span>
     <span class="label">Instagram:</span><br />
-    <a href="#" target="_blank">@suaempresa</a>
+    <a href="https://www.instagram.com/e_conceptcar?igsh=dHp0MHczYW53aGdh" target="_blank">@e_conceptcar</a>
   </p>
 </body>
 </html>
