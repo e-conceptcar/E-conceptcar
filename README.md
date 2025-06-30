@@ -1,85 +1,76 @@
-
-<html lang="pt-BR"><head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Página de contato do Erick da Silva da empresa E-conceptcar. Telefone, e-mail, localização e redes sociais.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contato Erick da Silva - E-conceptcar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 400px;
-      margin: 20px auto;
-      padding: 10px;
-      color: #222;
+      max-width: 420px;
+      margin: 40px auto;
+      padding: 20px;
       background: #f9f9f9;
       border-radius: 10px;
-      box-shadow: 0 0 8px #ccc;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      color: #222;
+    }
+    h1, h3 {
       text-align: center;
-    }
-    h1 {
-      color: #004aad;
-    }
-    a {
-      color: #004aad;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
+      margin: 10px 0;
     }
     .info {
-      margin: 15px 0;
-      font-size: 1.1em;
-      text-align: left;
+      margin: 12px 0;
+      font-size: 16px;
     }
-    .label {
-      font-weight: bold;
+    .info i {
+      margin-right: 10px;
+      color: #2c3e50;
     }
-    .icon {
-      margin-right: 8px;
+    .info a {
+      color: #2c3e50;
+      text-decoration: none;
+    }
+    .info a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      margin-top: 15px;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>👤 Erick da Silva</h1>
 
-  <p class="info"><span class="label">🏢 Empresa:</span> E-conceptcar</p>
+  <h1>Erick da Silva</h1>
+  <h3>E-conceptcar</h3>
 
-  <p class="info">
-    <span class="icon">📞</span>
-    <span class="label">Telefone / WhatsApp:</span>
-    <a href="https://wa.me/5511958881194" target="_blank">+55 11 95888-1194</a>
-  </p>
+  <div class="info">
+    <i class="fas fa-phone"></i>
+    <a href="https://wa.me/5511958881194" target="_blank">+55 11 95888-1194 (WhatsApp)</a>
+  </div>
 
-  <p class="info">
-    <span class="icon">✉️</span>
-    <span class="label">E-mail:</span>
+  <div class="info">
+    <i class="fas fa-envelope"></i>
     <a href="mailto:e-conceptcar@outlook.com">e-conceptcar@outlook.com</a>
-  </p>
+  </div>
 
-  <p class="info">
-    <span class="icon">📍</span>
-    <span class="label">Endereço:</span><br />
-    <a href="https://www.google.com/maps/search/?api=1&query=Rua+Anton+Philips,+186,+Guarulhos,+SP" target="_blank">
-      Rua Anton Philips, 186 - Prédio B - Vila Hermínia, Guarulhos - SP, 07030
-    </a>
-  </p>
+  <div class="info">
+    <i class="fas fa-map-marker-alt"></i>
+    Rua Anton Philips, 186 - Prédio B<br />
+    Vila Hermínia, Guarulhos - SP, 07030
+  </div>
 
-  <p class="info">
-    <span class="icon">🕒</span>
-    <span class="label">Horário de Funcionamento:</span><br />
-    Segunda a Sexta: 08:00 às 18:00
-  </p>
+  <!-- Mapa Integrado -->
+  <iframe
+    src="https://www.google.com/maps?q=Rua+Anton+Philips,+186+-+Vila+Herm%C3%ADnia,+Guarulhos+-+SP,+07030-000&output=embed"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
 
-  <p class="info">
-    <span class="icon">🛠️</span>
-    <span class="label">Serviços realizados:</span><br />
-    Reforma de Rodas
-  </p>
-
-  <p class="info">
-    <span class="icon">📸</span>
-    <span class="label">Instagram:</span><br />
-    <a href="https://www.instagram.com/e_conceptcar?igsh=dHp0MHczYW53aGdh" target="_blank">@e_conceptcar</a>
-  </p>
 </body>
 </html>
