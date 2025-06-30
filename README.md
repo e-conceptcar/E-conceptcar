@@ -76,5 +76,3 @@
 </body>
 </html>
 <meta name="google" content="notranslate">
-X-Content-Language-Options: nosniff
-Content-Language: pt-BR
